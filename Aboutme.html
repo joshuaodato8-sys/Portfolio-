@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About Me</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #8ab9e2, #39e3ec);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+header h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    gap: 30px;
+    justify-content: center;
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.profile-pic {
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.profile-pic img {
+    width: 100%;
+    display: block;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.about-text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.about-text a {
+    color: #fffa;
+    text-decoration: underline;
+}
+
+.about-text a:hover {
+    color: #fff;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #ddd;
+    text-align: center;
+}
+
+@media(max-width: 700px){
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Joshua R. Odato</h1>
+    <h2>First-Year Student at UB</h2>
+</header>
+
+<div class="container">
+    <div class="profile-pic">
+        <img src="prof.jpg" alt="Profile Picture">
+    </div>
+
+    <div class="about-text">
+        <h3>About Me</h3>
+        <p>Hello! My name is <strong>Joshua Odato</strong>, and I’m a first-year student at UB. I am learning web development, design, and creative technologies, and I enjoy experimenting with websites and visual projects.</p>
+        <p>My interests include coding, photography, and exploring new technologies. I like combining creativity with tech to build projects I’m proud of.</p>
+        <p>You can find me on <a href="#joshuaodato8@gmail,com">Gmail</a> or <a href="#https://github.com/joshuaodato8-sys">GitHub</a> — I’m open to learning and collaborating!</p>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 Joshua Odato
+</footer>
+
+</body>
+</html>
