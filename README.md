@@ -1,2 +1,12 @@
-# Portfolio-
-Good day am Joshua Odato. This project is part of my BSCS requirements. 
+# Hi, I'm Joshua R. Odato 👋
+
+🎓 BS Computer Science Student
+
+💻 Learning C, C++, and Web Development
+
+🏸 Badminton Player
+
+🎯 Goal: Become a Software Engineer
+
+📫 Contact Me: 
+ - Email: joshuaodato8@email.com
