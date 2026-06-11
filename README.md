@@ -9,4 +9,4 @@
 🎯 Goal: Become a Software Engineer
 
 📫 Contact Me: 
- - Email: joshuaodato8@email.com
+ - Email: joshuaodato8@gmail.com
